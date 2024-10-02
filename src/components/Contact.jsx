@@ -9,7 +9,8 @@ function Contact() {
         <h1 className="headings border    text-sm font-medium">Get in touch</h1>
         <p className=" md:text-lg  m-auto p-5 md:w-[600px] text-center ">What’s next? Feel free to reach out to me if you are looking for a developer, have a query, or simply want to connect.</p>
         {/* Contacts */}
-        <div data-aos="fade-up-left" className="flex flex-col gap-5 items-center">
+        <div  data-aos="fade-up"
+     data-aos-duration="3000" className="flex flex-col gap-5 items-center">
         <div className="flex place-items-center gap-2 ">
         <MdEmail size={35} />
         <a className=" md:text-4xl font-semibold tracking-[-0.02em] " href="mailto:aliorakzai407@gmail.com">aliorakzai407@gmail.com</a>

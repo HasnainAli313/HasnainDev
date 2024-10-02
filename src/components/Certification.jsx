@@ -4,9 +4,9 @@ function Certification() {
     <section className="p-5 bg-[#111827]">
 
         <h1 className='headings border    text-sm font-medium'>Certificates</h1>
+        <p className="text-normal m-5 text-lg md:text-xl   text-center">Here is a quick summary of my most recent certification:</p>
         <div  data-aos="fade-up"
      data-aos-duration="1000">
-        <p className="text-normal m-5 text-lg md:text-xl   text-center">Here is a quick summary of my most recent certification:</p>
             <div className='rounded-xl bg-[#1F2937] flex sm:flex-row gap-1 flex-col items-center p-5  '>
                 {/* Experience cards */}  
             <img  className="pr-[80px] w-[300px] " src={cert1} alt="" />
