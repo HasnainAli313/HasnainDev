@@ -12,8 +12,10 @@ function Experience() {
             <img  className="pr-[80px]" src={exp1} alt="" />
             <div className="md:w-[90%]  flex sm:flex-row gap-5 md:justify-around  flex-col ">
                 <div>
-                <h1 className="p-3  text-xl font-semibold">Title</h1>
-                <p className="pl-3 w-[90%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo expedita asperiores beatae adipisci veritatis eaque cum, deserunt, iure explicabo reiciendis dolorem. Excepturi tenetur amet libero veniam aliquam reprehenderit quisquam.</p>
+                <h1 className="p-3  text-xl font-semibold">Frontend Web Developer</h1>
+                <p className="pl-3 w-[90%]">As a Frontend Web Developer, I have polished my HTML, CSS, and responsive design skills by completing the tasks.
+                    
+                      </p>
                 </div>
             <p className=" w-[100%] pl-3 pt-3  ">Jan 2024-Feb 2024</p>
             </div>

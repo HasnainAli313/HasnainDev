@@ -29,7 +29,8 @@ body{
     color: #D1D5DB;
     text-align: center;
     border-radius: 12px;
-    width: 70px;
+    padding: 2px;
+    width: 90px;
 }
 
 /* Navbar */

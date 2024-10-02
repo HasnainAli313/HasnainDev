@@ -18,7 +18,7 @@ I am a passionate Frontend Web Developer with a keen interest in creating intuit
 
 {/* Location */}
 <div className='flex w-[300px] mt-8 ml-1 items-center gap-3 '>
-<IoLocationOutline size={30} /> <p className='text-xl' >Nowshera,Pakistan</p>
+<IoLocationOutline size={30} /> <p className='text-xl' >Nowshera, Pakistan</p>
 
 </div>
 
