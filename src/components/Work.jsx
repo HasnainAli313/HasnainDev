@@ -17,7 +17,7 @@ function Work() {
                 <img className=" transition-transform duration-500  md:hover:scale-105 md:h-[230px] rounded-lg  " src={pizza} alt="" />
             </div>
             {/* Description */}
-            <div className="bg-[#1F2937] lg:rounded-l-none rounded-t-none  p-5 lg:w-[90%]   rounded-xl" >
+            <div className="bg-[#1F2937] lg:rounded-l-none rounded-t-none  p-5 lg:w-[90%]  w-[100%]  rounded-xl" >
                 <h1 className="text-xl m-1 font-semibold"> Pizza Delivery </h1>
                 <p>
                 A platform for ordering pizza
