@@ -1,6 +1,7 @@
 import cert1 from "../assets/fcc_secondary_large.jpg"
 import cert2 from "../assets/js.jpeg"
 import cert3 from "../assets/ux.jpeg"
+import cert4 from "../assets/SMIT_Certificate.jpeg"
 function Certification() {
   return (
     <section className="p-5 bg-[#111827]">
@@ -9,8 +10,21 @@ function Certification() {
         <p className="text-normal m-5 text-lg md:text-xl   text-center">Here is a quick summary of my most recent certification:</p>
         <div  data-aos="fade-up"
      data-aos-duration="1000">
-            <div className='rounded-xl bg-[#1F2937] flex sm:flex-row gap-1 flex-col items-center p-5   '>
                 {/* Experience cards */}  
+
+                {/* SMIT */}
+             <div className='rounded-xl bg-[#1F2937] flex sm:flex-row  gap-1 flex-col items-center p-5   '>
+            <img  className="pr-[80px] w-[300px] " src={cert4} alt="" />
+            <div className="md:w-[90%]  flex sm:flex-row gap-5 md:justify-around  flex-col ">
+                <div>
+                <h1 className="p-3  text-xl font-semibold">Web  App Development(MERN)</h1>
+                <p className="pl-3 w-[90%]">In one year of this course I had learned Frontend and Backend Development </p>
+                </div>
+            <p className=" w-[100%] pl-3 pt-3  ">Sep  2024</p>
+            </div>
+            </div>    
+
+            <div className='rounded-xl bg-[#1F2937] flex sm:flex-row gap-1 mt-2 flex-col items-center p-5   '>
             <img  className="pr-[80px] w-[300px] " src={cert1} alt="" />
             <div className="md:w-[90%]  flex sm:flex-row gap-5 md:justify-around  flex-col ">
                 <div>
@@ -21,9 +35,8 @@ function Certification() {
             </div>
             </div>
 
-            {/* JS */}
-            <div className='rounded-xl bg-[#1F2937] flex sm:flex-row gap-1 flex-col items-center p-5  mt-2'>
-                {/* Experience cards */}  
+            {/* FreeCodeCamp */}
+            <div className='rounded-xl bg-[#1F2937] flex sm:flex-row gap-1 flex-col  items-center p-5  mt-2'>
             <img  className="pr-[80px] w-[300px] " src={cert2} alt="" />
             <div className="md:w-[90%]  flex sm:flex-row gap-5 md:justify-around  flex-col ">
                 <div>
