@@ -65,6 +65,7 @@
 // export default Navbar;
 
 import { useState, useEffect } from 'react';
+import cv from "../assets/HasnainAli_WebDev.pdf"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -123,7 +124,7 @@ function Navbar() {
           <a onClick={() => handleActive("#contact")} href='#contact'>Contact</a>
         </li>
         <li className=' '>
-            <a href="../assets/HasnainAli_Web_Dev.pdf" download>
+            <a href={cv} download>
           <button className='bg-gray-200 hover:bg-gray-100 text-black p-1 rounded-xl'>Download CV</button>
             </a>
         </li>
